@@ -3,23 +3,23 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-14.0.0_r67" />
+           revision="refs/tags/main" />
 
   <remote  name="github"
            fetch=".." />
 
   <remote  name="gitea"
            fetch="https://gitea.com"
-           revision="refs/heads/14" />
+           revision="refs/heads/16" />
 
   <remote  name="labs"
            fetch=".."
-           revision="refs/heads/14-asb-202410" />
+           revision="refs/heads/main" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/14"
+  <default revision="refs/heads/16"
            remote="github"
            sync-j="4" />
 
