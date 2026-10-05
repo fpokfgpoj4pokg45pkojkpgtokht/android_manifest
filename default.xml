@@ -19,7 +19,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <superproject name="platform/superproject" remote="aosp" revision=""/>
+  <superproject name="platform/superproject" remote="aosp" revision="16"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="AfterlifeOS/build" groups="pdk,sysui-studio">
