@@ -6,7 +6,8 @@
            />
 
   <remote  name="github"
-           fetch=".." />
+           fetch=".."
+           revision="default" />
 
   <remote  name="gitea"
            fetch="https://gitea.com"
