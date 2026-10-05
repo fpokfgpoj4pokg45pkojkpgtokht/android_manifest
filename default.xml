@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/main" />
+           />
 
   <remote  name="github"
            fetch=".." />
@@ -14,7 +14,7 @@
 
   <remote  name="labs"
            fetch=".."
-           revision="refs/heads/main" />
+           />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
