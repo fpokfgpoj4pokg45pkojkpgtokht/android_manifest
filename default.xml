@@ -32,7 +32,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/orchestrator" name="platform/build/orchestrator" groups="pdk" remote="aosp" revision="default"  />
-  <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp">
+  <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" revision="default">
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
@@ -945,7 +945,7 @@
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="aosp" revision="default"  />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" remote="aosp" revision="default"  />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" remote="aosp" revision="default"  />
-  <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" groups="qcom_sm7150" remote="aosp">
+  <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" groups="qcom_sm7150" remote="aosp" revision="default">
     <linkfile dest="hardware/qcom/sm7150/Android.mk" src="os_pickup.mk" />
     <linkfile dest="hardware/qcom/sm7150/Android.bp" src="os_pickup.bp" />
   </project>
@@ -964,7 +964,7 @@
   <project path="hardware/qcom/sm8150/media" name="AfterlifeOS/hardware_qcom_sm8150_media" groups="qcom,qcom_sm8150" />
   <project path="hardware/qcom/sm8150/thermal" name="platform/hardware/qcom/sm8150/thermal" groups="qcom_sm8150" remote="aosp" revision="default"  />
   <project path="hardware/qcom/sm8150/vr" name="platform/hardware/qcom/sm8150/vr" groups="qcom_sm8150" remote="aosp" revision="default"  />
-  <project path="hardware/qcom/sm8150p/gps" name="platform/hardware/qcom/sm8150p/gps" groups="qcom_sm8150p" remote="aosp">
+  <project path="hardware/qcom/sm8150p/gps" name="platform/hardware/qcom/sm8150p/gps" groups="qcom_sm8150p" remote="aosp" revision="default">
     <linkfile dest="hardware/qcom/sm8150p/Android.mk" src="os_pickup.mk" />
     <linkfile dest="hardware/qcom/sm8150p/Android.bp" src="os_pickup.bp" />
   </project>
@@ -1340,7 +1340,7 @@
   <project path="external/trusty/musl" name="trusty/external/musl" groups="trusty" remote="aosp" revision="default"  />
   <project path="external/trusty/arm-trusted-firmware" name="trusty/external/trusted-firmware-a" groups="trusty" remote="aosp" revision="default"  />
   <project path="external/trusty/bootloader" name="trusty/external/trusty" groups="trusty" remote="aosp" revision="default"  />
-  <project path="trusty/host/common" name="trusty/host/common" groups="trusty" remote="aosp">
+  <project path="trusty/host/common" name="trusty/host/common" groups="trusty" remote="aosp" revision="default">
     <linkfile src="bazel/WORKSPACE.bazel" dest="trusty/WORKSPACE.bazel" />
     <linkfile src="bazel/bazelrc" dest="trusty/.bazelrc" />
   </project>
@@ -1349,7 +1349,7 @@
   <project path="external/trusty/lk" name="trusty/lk/common" groups="trusty" remote="aosp" revision="default"  />
   <project path="trusty/hardware/nxp" name="trusty/lk/nxp" groups="trusty" remote="aosp" revision="default"  />
   <project path="trusty/kernel" name="trusty/lk/trusty" groups="trusty" remote="aosp" revision="default"  />
-  <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" remote="aosp">
+  <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" remote="aosp" revision="default">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
